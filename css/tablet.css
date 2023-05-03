@@ -1,6 +1,7 @@
-@media screen and (min-width: 416px) and (max-width: 1280px) {
+@media screen and (min-width: 416px) and (max-width: 1368px) {
     .image_container {
         height: 50vh;
+        width: 100%;
     }
     .img1 {
         object-fit: cover;
@@ -39,17 +40,22 @@
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr;
     }
+    .row1 .section-side {
+        padding-right: 0 !important;
+        width: auto !important;
+    }
     .row2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
-        column-gap: 50px;
+        column-gap: 30px;
         width: fit-content;
         row-gap: 20px;
         padding-left: 10px;
         padding-bottom: 20px !important;
         margin-bottom: 0;
         margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     .bruh {
         margin-left: 0 !important;
@@ -58,7 +64,7 @@
         margin-left: 10px !important;
     }
     .row2 .section {
-        width: 40vw !important;
+        width: auto !important;
     }
     #certificate h2,
     ul {

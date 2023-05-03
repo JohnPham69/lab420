@@ -40,10 +40,10 @@
         width: 100vw;
     }
     .row1 .section {
-        width: 100%;
+        width: 100vw;
     }
     .row1 .section-side {
-        width: fit-content !important;
+        width: 100% !important;
         padding: 0 !important;
         padding-left: 10px !important;
         padding-right: 35px !important;
