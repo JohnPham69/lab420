@@ -48,7 +48,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
-        column-gap: 30px;
+        column-gap: 20px;
         width: fit-content;
         row-gap: 20px;
         padding-left: 10px;
@@ -56,6 +56,9 @@
         margin-bottom: 0;
         margin-left: 0 !important;
         margin-right: 0 !important;
+    }
+    .row2 .section {
+        width: 50vw;
     }
     .bruh {
         margin-left: 0 !important;
